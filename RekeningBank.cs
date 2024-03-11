@@ -53,7 +53,7 @@ namespace TugasPBO2
             this.saldo = saldo;
         }
 
-        public void PotonganBiayaAdmin(int biayaAdmin)
+        public void PotonganBiayaAdmin(double biayaAdmin)
         {
             saldo -= biayaAdmin;
             Console.WriteLine($"Saldo telah terpotong untuk biaya Admin. Sisa saldo Rp.{saldo}");
